@@ -259,7 +259,7 @@
         $divisor = "";
         for($i; $i < $num;$i++){
             if($num % $i == 0){
-                $divisor .= "<br>".$i;
+                $divisor .= "\n".$i;
             }
         }
         return $divisor;
@@ -298,8 +298,7 @@
 
 
 
-
-
+    /*
     //Resultados
     echo "<br>A soma dos números é: ".somar(5,8);
     echo "<br>A subtração dos números é: ".subtrair(9,15);
@@ -329,7 +328,7 @@
     echo "<br>Total de Palavras: ".contarPalavras("Teste número 01");
     echo "<br>Os divisores são: ".divisores(30);
     echo "<br>Sequência de Fibonacci: ".fibonacci(10);
-
+    */
 
 
 ?>
